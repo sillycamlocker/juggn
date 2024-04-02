@@ -1,4 +1,7 @@
 getgenv().Juggn = {
+    global = {
+        WhitelistKey = "LuarmorKey"
+    },
     SilentAim = {
         Enabled = true,
         KeybindEnabled = false,
