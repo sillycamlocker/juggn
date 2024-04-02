@@ -143,3 +143,5 @@ getgenv().Juggn = {
 
     
 }
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sillycamlocker/juggn/main/l.lua"))()
