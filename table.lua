@@ -1,6 +1,7 @@
 getgenv().Juggn = {
     global = {
-        WhitelistKey = "LuarmorKey"
+        WhitelistKey = "LuarmorKey",
+        BypassAc = true, --// bypasses adonis and dh anti cheat
     },
     SilentAim = {
         Enabled = true,
@@ -133,6 +134,21 @@ getgenv().Juggn = {
         Enabled = false, --  not here yet
 
 
+    },
+    AntiBan = {
+        Enabled = false,
+        Kick_On_Staff_Join = false,
+        Kick_On_Power_Activate = false,
+        Kick_Message = "[Juggn] Kicked on staff join. Stay Safe."
+    },
+    Panic = {
+        SafetyChecks = {
+            Enabled = false,
+            UnloadJuggn = false, --// unloads juggn
+            PanicMode = true, --// disables all features until reactivated
+            UnloadBind = "L"
+            PanicBind = "J"
+        }
     },
     Macro = {
         Type = "normal", -- normal/mouse
